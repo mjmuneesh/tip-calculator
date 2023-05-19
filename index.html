@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="heading">
+        <h4>Tip Calculator</h4>
+    </div>
+<div class="container">
+    <section>
+        <div class="wrapper">
+            <label for="bill" class="label">Bill</label>
+            <div class="input-box">
+                <span>$</span>
+                <input type="number" value="0.00" id="bill" class="val">
+            </div>
+        </div>
+        
+        <div class="wrapper">
+            <span class="label">Tip</span>
+            <span id="tip-amount" class="val">$0</span>
+        </div>
+        <hr>
+        <div class="wrapper">
+            <span class="label">Total Amount</span>
+            <span id="total-amount" class="val">$0</span>
+        </div>
+    </section>
+    <section>
+        <div class="wrapper">
+            <label for="tip" class="label">Tip%</label>
+            <span id="tip-percent" class="val">0</span>
+        </div>
+        <input type="range" min="1"  max="50" id="tip" value="10">
+    </section>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

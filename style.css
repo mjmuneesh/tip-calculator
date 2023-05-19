@@ -1,0 +1,84 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Bruno Ace SC', cursive;
+   letter-spacing: 0.4px;
+}
+
+body{
+   background-color: #f3f3f3;
+   height: 100%;
+   background: linear-gradient(
+      135deg,
+      #6f6df4,
+      #4c4af4
+   ) fixed;
+   background-size: 100% 50%;
+   background-repeat: no-repeat;
+}
+.container{
+   background-color: #ffff;
+   width: 450px;
+   padding: 50px 40px;
+   border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+   
+}
+ #heading{
+   text-align: center;
+    font-size: 30px;
+    margin: 10%;
+    font-family: 'Bruno Ace SC', cursive;
+    color: rgb(167, 165, 165);
+    text-shadow: 6px 6px 5px black;
+ }
+
+.wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 12px 0;
+}
+
+.label{
+   font-size: 16px;
+   color: #44475b;
+   font-weight: 600;
+
+}
+
+.val{
+   font-size: 18px;
+   color: #44475b;
+   font-weight: 500;
+
+}
+
+.input-box{
+   background-color: #b6b6dd81;
+   color: #6f6df4;
+   padding: 5px;
+}
+
+#bill{
+   background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100px;
+    text-align: right;
+    color: #6f6df4;
+}
+hr{
+   border: none;
+   border-bottom: 1px solid #cdccfd;
+}
+
+input[type="range"]{
+   width: 100%;
+   cursor: pointer;
+}
+
